@@ -40,15 +40,17 @@ const App: React.FC = () => {
               </Stack>
             </Stack>
             <Stack direction="row">
-              <Stack alignItems="center" direction="row" spacing={1}>
-                <Icon as={GoLocation} height={6} width={6} />
-                <Stack spacing={0}>
-                  <Text color="blackAlpha.700" fontSize="xs" lineHeight="normal">
-                    Enviar a
-                  </Text>
-                  <Text fontSize="sm" lineHeight="normal">
-                    Santiago
-                  </Text>
+              <Stack direction="row">
+                <Stack alignItems="center" direction="row" spacing={1}>
+                  <Icon as={GoLocation} height={6} width={6} />
+                  <Stack spacing={0}>
+                    <Text color="blackAlpha.700" fontSize="xs" lineHeight="normal">
+                      Enviar a
+                    </Text>
+                    <Text fontSize="sm" lineHeight="normal">
+                      Santiago
+                    </Text>
+                  </Stack>
                 </Stack>
               </Stack>
             </Stack>
@@ -58,6 +60,9 @@ const App: React.FC = () => {
       <Container alignSelf="center" maxWidth="container.xl" paddingX={0}>
         <Routes />
       </Container>
+      <Stack>
+        <Text>Crea tu cuenta</Text>
+      </Stack>
     </Stack>
   );
 };
