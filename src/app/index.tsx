@@ -55,14 +55,14 @@ const App: React.FC = () => {
               </Stack>
             </Stack>
           </Stack>
+          <Stack>
+            <Text>Crea tu cuenta</Text>
+          </Stack>
         </Container>
       </Box>
       <Container alignSelf="center" maxWidth="container.xl" paddingX={0}>
         <Routes />
       </Container>
-      <Stack>
-        <Text>Crea tu cuenta</Text>
-      </Stack>
     </Stack>
   );
 };
