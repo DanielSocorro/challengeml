@@ -35,7 +35,7 @@ const App: React.FC = () => {
               <Stack alignItems="center" color="blackAlpha.700" direction="row" spacing={3}>
                 <Icon as={FiPrinter} height={9} width={9} />
                 <Text fontSize="lg" fontWeight={500}>
-                  Compra tu Point y QR a $1590
+                  Compra tu Point y QR a $1390
                 </Text>
               </Stack>
             </Stack>
@@ -54,9 +54,6 @@ const App: React.FC = () => {
                 </Stack>
               </Stack>
             </Stack>
-          </Stack>
-          <Stack>
-            <Text>Crea tu cuenta</Text>
           </Stack>
         </Container>
       </Box>
