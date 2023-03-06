@@ -48,11 +48,11 @@ const App: React.FC = () => {
                       Enviar a
                     </Text>
                     <Text fontSize="sm" lineHeight="normal">
-                      Santiago
+                      Paseo Central R...
                     </Text>
                   </Stack>
                 </Stack>
-                <Stack color="blackAlpha.700" direction="row" fontSize="sm">
+                <Stack color="blackAlpha.700" direction="row" fontSize="sm" spacing={4}>
                   <Text>Categorias</Text>
                   <Text>Ofertas</Text>
                   <Text>Historial</Text>
