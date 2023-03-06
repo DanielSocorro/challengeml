@@ -39,8 +39,8 @@ const App: React.FC = () => {
                 </Text>
               </Stack>
             </Stack>
-            <Stack direction="row">
-              <Stack direction="row">
+            <Stack alignItems="center" direction="row" justifyContent="space-between">
+              <Stack alignItems="baseline" direction="row" spacing={12}>
                 <Stack alignItems="center" direction="row" spacing={1}>
                   <Icon as={GoLocation} height={6} width={6} />
                   <Stack spacing={0}>
@@ -52,6 +52,19 @@ const App: React.FC = () => {
                     </Text>
                   </Stack>
                 </Stack>
+                <Stack color="blackAlpha.700" direction="row" fontSize="sm">
+                  <Text>Categorias</Text>
+                  <Text>Ofertas</Text>
+                  <Text>Historial</Text>
+                  <Text>Supermercado</Text>
+                  <Text>Categorias</Text>
+                  <Text>Moda</Text>
+                  <Text>Vender</Text>
+                  <Text>Ayuda</Text>
+                </Stack>
+              </Stack>
+              <Stack>
+                <Text>Crea tu cuenta</Text>
               </Stack>
             </Stack>
           </Stack>
