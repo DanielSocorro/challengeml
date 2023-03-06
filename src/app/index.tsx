@@ -3,6 +3,7 @@ import {Container, Text, Stack, Icon, Box, Image, Input, StackDivider} from "@ch
 import {AiOutlineSearch} from "react-icons/ai";
 import {FiPrinter} from "react-icons/fi";
 import {GoLocation} from "react-icons/go";
+import {IoCartOutline} from "react-icons/io5";
 
 import logo from "../assets/logo.png";
 
@@ -39,7 +40,7 @@ const App: React.FC = () => {
                 </Text>
               </Stack>
             </Stack>
-            <Stack alignItems="center" direction="row" justifyContent="space-between">
+            <Stack alignItems="baseline" direction="row" justifyContent="space-between">
               <Stack alignItems="baseline" direction="row" spacing={12}>
                 <Stack alignItems="center" direction="row" spacing={1}>
                   <Icon as={GoLocation} height={6} width={6} />
@@ -52,7 +53,7 @@ const App: React.FC = () => {
                     </Text>
                   </Stack>
                 </Stack>
-                <Stack color="blackAlpha.700" direction="row" fontSize="sm" spacing={4}>
+                <Stack color="blackAlpha.700" direction="row" fontSize="sm" spacing={5}>
                   <Text>Categorias</Text>
                   <Text>Ofertas</Text>
                   <Text>Historial</Text>
@@ -63,8 +64,11 @@ const App: React.FC = () => {
                   <Text>Ayuda</Text>
                 </Stack>
               </Stack>
-              <Stack>
+              <Stack alignItems="center" direction="row" fontSize="sm" spacing={6}>
                 <Text>Crea tu cuenta</Text>
+                <Text>Ingresa</Text>
+                <Text>Mis compras</Text>
+                <Icon as={IoCartOutline} height={6} width={6} />
               </Stack>
             </Stack>
           </Stack>
