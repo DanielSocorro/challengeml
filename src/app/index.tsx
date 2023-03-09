@@ -74,7 +74,7 @@ const App: React.FC = () => {
           </Stack>
         </Container>
       </Box>
-      <Container alignSelf="center" maxWidth="container.xl" paddingX={18}>
+      <Container alignSelf="center" maxWidth="container.xxl" paddingX={18}>
         <Routes />
       </Container>
     </Stack>
