@@ -14,8 +14,9 @@ const DetailsScreen: React.FC<Props> = ({product = mock.product}) => {
       <Box>
         <h1>{product.title}</h1>
         <p>{product.description}</p>
-        <p>{`Precio: ${product.price} ${product.currency}`}</p>
-        <img src={product.image} />
+        <p>${product.base_price}</p>
+        <p>${product.price} 22% OFF</p>
+        <img src={product.pictures[0].url} />
       </Box>
     </Stack>
   );
