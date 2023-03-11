@@ -12,6 +12,7 @@ const DetailsScreen: React.FC<Props> = ({product = mock.product}) => {
   return (
     <Stack>
       <Box>
+        <p>{`${product.condition} | ${product.sold_quantity} vendidos`}</p>
         <h1>{product.title}</h1>
         <p>{product.description}</p>
         <p>${product.base_price}</p>
