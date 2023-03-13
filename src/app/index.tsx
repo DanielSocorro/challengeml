@@ -66,7 +66,12 @@ const App: React.FC = () => {
                         marginLeft: "23px",
                         backgroundColor: "#3483fa",
                         borderRadius: "8px",
-                        fontWeight: "lighter",
+                        fontWeight: "bolder",
+                        textTransform: "uppercase",
+                        fontSize: "8px",
+                        padding: "1px 3px",
+                        lineHeight: "1em",
+                        color: "#fff",
                       }}
                     >
                       nuevo
