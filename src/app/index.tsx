@@ -57,7 +57,9 @@ const App: React.FC = () => {
                   <Text>Categorias</Text>
                   <Text>Ofertas</Text>
                   <Text>Historial</Text>
-                  <Text>Supermercado</Text>
+                  <Text>
+                    <span>nuevo</span>Supermercado
+                  </Text>
                   <Text>Categorias</Text>
                   <Text>Moda</Text>
                   <Text>Vender</Text>
