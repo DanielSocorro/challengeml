@@ -57,8 +57,21 @@ const App: React.FC = () => {
                   <Text>Categorias</Text>
                   <Text>Ofertas</Text>
                   <Text>Historial</Text>
-                  <Text>
-                    <span>nuevo</span>Supermercado
+                  <Text margin={0}>
+                    <span
+                      style={{
+                        position: "absolute",
+                        left: "auto",
+                        bottom: "88%",
+                        marginLeft: "23px",
+                        backgroundColor: "#3483fa",
+                        borderRadius: "8px",
+                        fontWeight: "lighter",
+                      }}
+                    >
+                      nuevo
+                    </span>
+                    Supermercado
                   </Text>
                   <Text>Categorias</Text>
                   <Text>Moda</Text>
